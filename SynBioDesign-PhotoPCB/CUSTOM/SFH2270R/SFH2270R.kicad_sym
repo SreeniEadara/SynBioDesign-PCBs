@@ -1,0 +1,77 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "SFH2270R" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at -2.54 3.175 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "SFH2270R" (id 1) (at -2.54 -5.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "LED_SFH2270R" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "OSRAM" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "1.4" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "SFH2270R_0_0"
+      (polyline
+        (pts
+          (xy 0.762 0.0)
+          (xy -0.508 -0.762)
+          (xy -0.508 0.762)
+          (xy 0.762 0.0)
+        )
+        (stroke (width 0.1524)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy -0.508 0.0) (xy -2.54 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.762 0.0) (xy 2.54 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.762 -0.762) (xy 0.762 0.762)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.3175 1.27) (xy 0.635 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.3175 1.27) (xy 0.3175 1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -0.3175 1.27) (xy 0.15875 2.06375)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.635 1.27) (xy 1.5875 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.635 1.27) (xy 1.27 1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.635 1.27) (xy 1.11125 2.06375)) (stroke (width 0.1524))
+      )
+      (pin passive line (at 5.08 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "C"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -5.08 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "A"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

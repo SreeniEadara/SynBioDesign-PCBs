@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "SFH2270R")(type "KiCad")(uri "${KIPRJMOD}/CUSTOM/SFH2270R")(options "")(descr ""))
+)
