@@ -463,6 +463,9 @@
   )
 
   (gr_rect (start 143.5 83.5) (end 161.5 106.5) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 56b3e1d3-f6f8-4de9-bdc0-20b59df6679f))
+  (gr_text "SynBioDesign\nLED PCB" (at 153 98) (layer "B.SilkS") (tstamp c41ba7e8-7b56-4c02-88d1-5c517795a48f)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_text "B0" (at 150 100) (layer "F.SilkS") (tstamp 1ca756a9-662c-4f2c-9a60-f905439e81ee)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )

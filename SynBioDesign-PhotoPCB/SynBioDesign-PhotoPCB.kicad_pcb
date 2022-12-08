@@ -1228,6 +1228,9 @@
   (gr_line (start 142.5 112.5) (end 177.5 112.5) (layer "Edge.Cuts") (width 0.1) (tstamp 88f0fa61-baef-4ff7-9af9-cc35797e49d3))
   (gr_line (start 142.5 67.5) (end 177.5 67.5) (layer "Edge.Cuts") (width 0.1) (tstamp 915ae1dd-5f75-4d6f-82e7-7bb652626bcf))
   (gr_arc (start 137.5 72.5) (mid 138.964466 68.964466) (end 142.5 67.5) (layer "Edge.Cuts") (width 0.1) (tstamp c78b6761-76f1-4def-8f16-95802b19f233))
+  (gr_text "SynBioDesign Photodiode PCB" (at 160 107) (layer "B.SilkS") (tstamp a3bc26d3-6c5c-4916-85d8-914db99e6393)
+    (effects (font (size 1.1 1.1) (thickness 0.2)) (justify mirror))
+  )
 
   (segment (start 151.69 90) (end 148.69 93) (width 0.5) (layer "F.Cu") (net 1) (tstamp 1752323b-3eed-41de-ac6d-f1d0fdc7277c))
   (segment (start 149 104) (end 149 100) (width 1) (layer "F.Cu") (net 1) (tstamp 1ce3b778-7951-4ffc-a5b4-41b223333db3))
